@@ -1,8 +1,11 @@
-# Describe 
+# Projeto: Análise de Dados de Cigarros
 
-Perform multiple regression analysis to understand consumer behavior regarding cigarette spending. The dataset includes information about cigarette consumers, such as age, sex, smoker status, region, and other factors. The task involves identifying the age and sex groups with the highest consumption and predicting spending based on multiple variables using linear and polynomial regression.
+## Descrição do Projeto
 
-# Dataset
+Este projeto envolve a análise de dados sobre o consumo de cigarros. O código carrega, processa e visualiza informações relevantes sobre a relação entre variáveis como o consumo de cigarros em diferentes regiões, o impacto econômico, e outros fatores associados. A análise é feita em Python, utilizando bibliotecas para manipulação de dados e criação de visualizações.
+
+## Dataset
+
 The dataset used in this analysis is the insurance.csv file. It contains several fields related to the health insurance of individuals, with a particular focus on those who smoke. Key features include:
 
 - age: Age of the individual
@@ -13,14 +16,46 @@ The dataset used in this analysis is the insurance.csv file. It contains several
 - region: Geographic region
 - charges: Medical expenses or spending on cigarettes
 
-# Dependencies
-The following Python libraries are required for running the notebook:
+## Funcionalidades
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- sklearn
-- statsmodels
-- scipy
-- yellowbrick
+- **Carregamento de Dados**: O script carrega e processa dados relacionados ao consumo de cigarros.
+- **Análise Estatística**: Realiza análises descritivas dos dados, como médias, variâncias e correlações entre variáveis.
+- **Visualização de Dados**: Gera gráficos que ajudam a entender melhor a distribuição dos dados e suas relações.
+  
+## Requisitos
+
+Para executar este projeto, você precisará das seguintes bibliotecas Python:
+
+- `numpy`
+- `pandas`
+- `matplotlib`
+- `seaborn`
+- `sklearn`
+- `statsmodels`
+- `scipy`
+- `yellowbrick`
+
+
+## Descrição da Base de Dados
+
+O conjunto de dados utilizado contém informações sobre o consumo de cigarros, com variáveis como:
+
+- **Região**: A região geográfica relacionada ao consumo de cigarros.
+- **Número de cigarros**: Quantidade de cigarros consumidos em uma determinada região.
+- **Outras variáveis econômicas e de saúde**: Relacionadas aos impactos do consumo de cigarros.
+
+Os dados foram processados para remover inconsistências e garantir a qualidade das análises.
+
+## Resultados
+
+A análise realizada no projeto resultou em visualizações que mostram:
+
+- **Distribuição do consumo por região**: Comparação entre diferentes regiões para identificar padrões.
+- **Correlação entre variáveis**: Identificação de correlações relevantes entre o consumo de cigarros e variáveis econômicas ou de saúde.
+- **Tendências**: Observação de possíveis tendências ao longo do tempo ou entre diferentes grupos demográficos.
+
+Esses resultados podem ser usados para entender o impacto do consumo de cigarros em diferentes cenários e auxiliar na criação de políticas públicas ou estratégias de marketing.
+
+## Contato
+
+Se você tiver dúvidas ou sugestões, entre em contato por [vitor13muniz09@gmail.com](mailto:vitor13muniz09@gmail.com).
