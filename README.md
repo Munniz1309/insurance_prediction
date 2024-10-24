@@ -6,15 +6,15 @@ Este projeto envolve a análise de dados sobre o consumo de cigarros. O código 
 
 ## Dataset
 
-The dataset used in this analysis is the insurance.csv file. It contains several fields related to the health insurance of individuals, with a particular focus on those who smoke. Key features include:
+O conjunto de dados utilizado nesta análise é o arquivo insurance.csv. Contém diversas áreas relacionadas ao seguro saúde de pessoas físicas, com foco particular em quem fuma. Os principais recursos incluem:
 
-- age: Age of the individual
-- sex: Gender of the individual
-- bmi: Body Mass Index
-- children: Number of children/dependents
-- smoker: Whether the individual smokes or not
-- region: Geographic region
-- charges: Medical expenses or spending on cigarettes
+- **age**: Idade do Indivíduo
+- **sex**: Gênero do Indivíduo
+- **bmi**: Índice de Massa Corporal
+- **children**: Número de Filhos
+- **smoker**: Indivíduo Fuma ou Não
+- **region**: Região Geográfica
+- **charges**: Despesas Médicas ou Gastos com Cigarros
 
 ## Funcionalidades
 
